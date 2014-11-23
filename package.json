@@ -1,0 +1,26 @@
+{
+  "name": "meta-tags",
+  "version": "0.0.0",
+  "description": "Read meta tags of a web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test -b -f test.html -q"
+  },
+  "keywords": [
+    "meta",
+    "tags"
+  ],
+  "repository": {
+    "url": "git@github.com:npm-dom/meta-tags.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "dependencies": {
+    "less-common-words": "0.0.0",
+    "uniques": "0.0.1"
+  },
+  "devDependencies": {
+    "prova": "^2.0.3"
+  }
+}
