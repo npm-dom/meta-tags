@@ -1,6 +1,6 @@
 {
   "name": "meta-tags",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Read meta tags of a web page",
   "main": "index.js",
   "scripts": {
