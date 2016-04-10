@@ -1,4 +1,4 @@
-var test = require("prova");
+var test = require("tape");
 var tags = require("./");
 
 test('reading tags', function (t) {

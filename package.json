@@ -4,7 +4,7 @@
   "description": "Read meta tags of a web page",
   "main": "index.js",
   "scripts": {
-    "test": "node test -b -f test.html -q"
+    "test": "browserify test.js -o test-build.js && cat test.html | tape-run --input=html --static=."
   },
   "keywords": [
     "meta",
@@ -17,10 +17,13 @@
   "author": "azer",
   "license": "BSD",
   "dependencies": {
-    "less-common-words": "0.0.0",
-    "uniques": "0.0.1"
+    "most-common-words": "azer/most-common-words",
+    "less-common-words": "azer/less-common-words",
+    "uniques": "azer/uniques"
   },
   "devDependencies": {
-    "prova": "^2.0.3"
+    "browserify": "13.0.0",
+    "tape": "4.5.1",
+    "tape-run": "2.1.3"
   }
 }
